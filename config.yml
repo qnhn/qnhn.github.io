@@ -1,0 +1,142 @@
+baseURL: https://blog.undo.pw/
+languageCode: en-us
+title: blog.undo.pw
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+#   env: production # to enable google analytics, opengraph, twitter-cards and schema.
+#   title: untitled
+#   description: "no description"
+#   keywords: [blog, ctf, security, web, cve]
+  author: son
+#   # author: ["Me", "You"] # multiple authors
+#   images: [""]
+  DateFormat: "January 2, 2006"
+  defaultTheme: dark # dark, light
+  # disableThemeToggle: false
+  ShowReadingTime: true
+#   ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+#   comments: false
+  showtoc: true
+
+#   assets:
+#     # disableHLJS: true # to disable highlight.js
+#     # disableFingerprinting: true
+#     favicon: ""
+#     favicon16x16: ""
+#     favicon32x32: ""
+#     apple_touch_icon: ""
+#     safari_pinned_tab: ""
+
+  # label:
+  #   text: "undo.pw"
+  #   icon: ""
+  #   iconHeight: 35
+
+  # profile-mode
+  # profileMode:
+  #   enabled: false # needs to be explicitly set
+  #   title: ExampleSite
+  #   subtitle: "This is subtitle"
+  #   imageUrl: "<img location>"
+  #   imageWidth: 120
+  #   imageHeight: 120
+  #   imageTitle: my image
+  #   buttons:
+  #     - name: Posts
+  #       url: posts
+  #     - name: Tags
+  #       url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "son's blog"
+    Content: writing all things that i have dealt with.
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/s0ntr4n"
+    # - name: stackoverflow
+    #   url: "https://stackoverflow.com"
+    # - name: github
+    #   url: "https://github.com/"
+
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: ""
+  #   bing:
+  #     SiteVerificationTag: ""
+  #   yandex:
+  #     SiteVerificationTag: ""
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/qnhn/qnhn.github.io/tree/main/content"
+    Text: "suggest changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 2
+    keys: ["title", "summary"]
+
+menu:
+  main:
+    - name: archives
+      url: archives
+      weight: 5
+    - name: search
+      url: search/
+      weight: 10
+    # - name: categories
+    #   url: /categories/
+    #   weight: 10
+    - name: tags
+      url: /tags/
+      weight: 15
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: false
+markup:
+  highlight:
+    # noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    guessSyntax: true
+    # lineNos: true
+    # style: monokai
