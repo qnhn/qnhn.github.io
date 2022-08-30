@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>rce on blog.undo.pw</title>
+    <link>https://blog.undo.pw/tags/rce/</link>
+    <description>Recent content in rce on blog.undo.pw</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.undo.pw/tags/rce/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gitlab Remote Code Execution via Bulk Import Import Project - CVE-2022-2185</title>
+      <link>https://blog.undo.pw/posts/cve-2022-2185-gitlab-bulk-import-project/</link>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.undo.pw/posts/cve-2022-2185-gitlab-bulk-import-project/</guid>
+      <description>Detail analysis of CVE-2022-2185</description>
+    </item>
+    
+  </channel>
+</rss>

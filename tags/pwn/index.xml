@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>pwn on blog.undo.pw</title>
+    <link>https://blog.undo.pw/tags/pwn/</link>
+    <description>Recent content in pwn on blog.undo.pw</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.undo.pw/tags/pwn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TSGCTF 2020 - Beginner&#39;s Pwn</title>
+      <link>https://blog.undo.pw/posts/tsgctf-2020-beginners-pwn/</link>
+      <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.undo.pw/posts/tsgctf-2020-beginners-pwn/</guid>
+      <description>Writeup for an easy Pwn challenge that I solved in TSGCTF 2020</description>
+    </item>
+    
+  </channel>
+</rss>
